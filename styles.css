@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: rgb(39, 36, 36);
+    font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background: yellowgreen;
+    padding: 20px;
+    border: 15px solid #7da0cc;
+    margin: 20px 20px;
+    width: 500px;
+}
+
+.firstbox {
+    background-color: brown;
+    color: rgb(221, 208, 28);
+    padding: 20px 20px;
+    margin: 15px;
+    border: 15px solid black;
+    font-size: larger;
+    text-align: center;
+    width: 60%;
+}
+
+.moreboxes {
+    background: #8797a8;
+    border: 10px solid chartreuse;
+}
+
+.moreboxes::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.box {
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+    padding: 20px;
+    border: 15px solid cadetblue;
+}
+.secondbox {
+    background-color: cadetblue;
+    border: 5px solid red;
+    color: black;
+}
+
+.thirdbox {
+    background-color: royalblue;
+    border: 5px solid rgba(45, 30, 49, 0.849);
+}
+.onemore {
+    color: white;
+    background-color: green;
+    border: 5px solid black;
+}
